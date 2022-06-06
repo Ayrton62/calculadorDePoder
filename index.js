@@ -26,7 +26,7 @@ switch(entrenado){
     case "goku":
         alert("Genial, el poder de Goku es de 500000 por lo que puede entrenar el tiempo que desees")
         time = parseInt(prompt("¿Por cuantos dias te gustaria que entrene " + entrenado + " en esta ocasion?"))
-        habitacionTiempo = goku.poder * 1.05 * time
+            habitacionTiempo = entrenamiento(goku, time)
         alert("Increible, el nuevo poder de Goku es de " + habitacionTiempo)
         break;
     case "gohan":
@@ -35,7 +35,7 @@ switch(entrenado){
     while ( time > 15 ){
         time = parseInt(prompt("Eso es demasiado tiempo para Gohan, es muy arriesgado, Gohan puede entrenar hasta 15 dias"))
         }
-        habitacionTiempo = entrenamiento(gohan, time)
+            habitacionTiempo = entrenamiento(gohan, time)
         alert("Increible, el nuevo poder de Gohan es de " + habitacionTiempo)
         break;
     default:
