@@ -5,3 +5,42 @@
 body{
     background-color: blanchedalmond;
 }
+.banner{
+  width: 100%;
+}
+.bannerhabitaciondeltiempo{
+  width: 100%;
+}
+.logo__hab{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.cont__menuPJs{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.personajes{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.personajes .titu__pj{
+  display: flex;
+  justify-content: center;
+  background-color: #f7bf6c;  
+}
+.cont__pj .fotopj{
+  width: 80%;
+  height: 70%;
+  margin-left: 70px;
+}
+.menu{
+  display: grid;
+  grid-column: 1fr 1fr;
+}
+.menu .titu__entrenamiento{
+  background-color: #000000;
+  color: aliceblue;
+  height: 29px;
+}
