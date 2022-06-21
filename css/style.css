@@ -16,23 +16,23 @@ body{
   height: 3rem;
   border-radius: 50%;
 }
-.cont__menuPJs{
+#showPJS{
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
-.personajes{
+.cont{
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.personajes .titu__pj{
+.cont .title__pj{
   display: flex;
   justify-content: center;
   background-color: #f7bf6c;  
 }
 .cont__pj .fotopj{
   width: 80%;
-  height: 70%;
+  height: 444px;
   margin-left: 70px;
 }
 .menu{
